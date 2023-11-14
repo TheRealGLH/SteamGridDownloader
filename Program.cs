@@ -1,4 +1,5 @@
 ﻿using System;
+using Views;
 
 class Sample
 {
@@ -23,5 +24,7 @@ class Sample
                 System.Environment.Exit(0);
             }
         }
+
+        CollectionViewer.ThingieAsync();
     }
 }

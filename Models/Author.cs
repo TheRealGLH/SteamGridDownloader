@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Author
     {
     public Author(string name, string steam64, string avatar, List<object> badges)

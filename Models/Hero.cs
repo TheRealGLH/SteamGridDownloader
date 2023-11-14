@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Hero
     {
     public Hero(int id, string style, int width, int height, bool nsfw, 

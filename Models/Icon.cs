@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Icon
     {
     public Icon(int id, string style, int width, int height, bool nsfw,

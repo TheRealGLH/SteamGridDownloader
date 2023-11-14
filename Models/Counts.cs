@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Counts
     {
     public Counts(int grid, int hero, int logo, int icon)

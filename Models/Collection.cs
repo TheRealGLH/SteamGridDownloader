@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Collection
     {
     public Collection(List<object> grids, List<Hero> heroes, List<Logo> logos, List<object> icons)

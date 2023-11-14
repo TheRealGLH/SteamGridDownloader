@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Badge
     {
     public Badge(int id, string name, string description, int date, bool isHidden)

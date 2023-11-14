@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class AuthorData
     {
     public AuthorData(List<Collection> collections, int limit, int total, int current_page)

@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class AuthorCollection
     {
     public AuthorCollection(int id, string name, int date, string description, string description_parsed, Counts counts, Author author)

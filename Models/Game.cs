@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Game
     {
     public Game(int id, string name, int release_date, List<object> types, bool verified)

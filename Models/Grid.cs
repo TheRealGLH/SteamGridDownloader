@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Grid
     {
     public Grid(int id, string style, int width, int height, bool nsfw, 

@@ -1,3 +1,5 @@
+    namespace models;
+    
     public class Logo
     {
     public Logo(int id, string style, int width, int height, bool nsfw,
