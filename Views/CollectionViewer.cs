@@ -7,11 +7,12 @@ public class CollectionViewer
 {
     public static async Task ThingieAsync()
     {
-        string fileName = "collection.json";
+        //Should be from http call. This is for early test only.
+        string fileName = "./collection.json";
             using FileStream openStream = File.OpenRead(fileName);
-            Collection? weatherForecast = 
-                await JsonSerializer.DeserializeAsync<Collection>(openStream);
-
+            CollectionData? collectionData = 
+                await JsonSerializer.DeserializeAsync<CollectionData>(openStream);
+                Console.WriteLine(collectionData.ToString());
             
     }
 }

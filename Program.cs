@@ -3,7 +3,7 @@ using Views;
 
 class Sample
 {
-    public static void Main()
+    public async static Task Main()
     {
         //  Invoke this sample with an arbitrary set of command line arguments.
         string[] arguments = Environment.GetCommandLineArgs();
@@ -25,6 +25,6 @@ class Sample
             }
         }
 
-        CollectionViewer.ThingieAsync();
+        await CollectionViewer.ThingieAsync();
     }
 }
