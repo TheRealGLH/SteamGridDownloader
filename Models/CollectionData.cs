@@ -3,12 +3,11 @@ using models;
 
 public class CollectionData
     {
-    public CollectionData(bool success, Collection collection)
+    
+    public CollectionData()
     {
-        this.success = success;
-        this.collection = collection;
+        
     }
-
     public bool success { get; set; }
     [JsonPropertyName("data")]
     public Collection collection { get; set; }

@@ -53,6 +53,7 @@ class Program
     {
         Console.Write("Please enter the ID of the collection: ");
         id = Console.ReadLine();
+        if(string.IsNullOrEmpty(id)) setID();
     }
 
     static void printHelp()
